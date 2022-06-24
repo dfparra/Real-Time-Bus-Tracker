@@ -4,11 +4,15 @@
 This project uses mapbox, an open-source platform that allows you to create and display maps on a web page, along with the JavaScript library mapboxgl to display Markers on the map that track coordinates of a bus route traveling from MIT to Harvard.
 
 ### How to Run
-1. Click the button to watch the marker move across the map from MIT to Harvard
+1. Create a Mapbox account and generate an access token
+2. Copy then paste your access token into the mapanimation.js on line 18
+3. Load the HTML page and click the button to watch the marker move across the map
 
 ### Roadmap of future improvements
 * Add more bus routes
 * Add more cities
+* Add user interface to switch between routes and cities
+* Dynamically fetch and load bus routes 
 
  
 
